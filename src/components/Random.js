@@ -1,10 +1,17 @@
 import React from 'react';
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 function Random() {
-    return (
-      <div>
-        <h1 class="text-dark">Random suggestion</h1>
-      </div>
+  return (
+      <Container>
+        <Row>
+          <Col>
+              <h1 className="text-dark">Random suggestion</h1>
+          </Col>
+        </Row>
+      </Container>       
     );
 }
 

@@ -12,7 +12,7 @@ function Watchlist() {
             <Col>
             {/* make back button better */}
               <Link to="/lists">Back</Link> 
-              <h1 class="text-dark">Watchlist</h1>
+              <h1 className="text-dark">Watchlist</h1>
             </Col>
           </Row>
         </Container>
